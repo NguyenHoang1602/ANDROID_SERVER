@@ -877,7 +877,7 @@
                                       echo '<td>'. $row['Amphitheater_ID'] .'</td>';
                                       echo '<td>'. $row['Subject_ID'] .'</td>';
                                       echo '<td>'. $row['Classroom_ID'] .'</td>';
-                                      echo '<td>'. $row['Lecturers'] .'</td>';
+                                      echo '<td>'. $row['Lecturers_ID'] .'</td>';
                                       echo '<td>'. $row['Slot_ID'] .'</td>';
                                       echo '<td> 
                                               <button class="btn btn-warning" data-toggle="modal" type="button" data-target="#update_modal_'. $row['schedule_ID'] .'"> Update </button> 

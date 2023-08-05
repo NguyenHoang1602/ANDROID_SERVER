@@ -12,7 +12,7 @@
         <form action="update_test_schedule.php" method="POST">
           <div class="form-group">
             <label for="firstname">Schedule_ID</label>
-            <input type="text" name="test_Shedule_ID" class="form-control" value="<?php echo $fetch['test_Shedule_ID'] ?>">
+            <input type="text" name="test_Schedule_ID" class="form-control" value="<?php echo $fetch['test_Schedule_ID'] ?>">
           </div>
           <div class="form-group">
             <label for="lastname">Date</label>
@@ -40,7 +40,7 @@
           </div>
           <div class="form-group">
             <label for="address">Slot</label>
-            <input type="text" name="Slot" class="form-control" value="<?php echo $fetch['Slot'] ?>">
+            <input type="text" name="Slot_ID" class="form-control" value="<?php echo $fetch['Slot_ID'] ?>">
           </div>
           <button type="submit" name="Update" class="btn btn-primary">Update</button>
         </form>

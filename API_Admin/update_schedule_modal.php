@@ -36,11 +36,11 @@
           </div>
           <div class="form-group">
             <label for="address">Lecturers</label>
-            <input type="text" name="Lecturers" class="form-control" value="<?php echo $fetch['Lecturers'] ?>">
+            <input type="text" name="Lecturers_ID" class="form-control" value="<?php echo $fetch['Lecturers_ID'] ?>">
           </div>
           <div class="form-group">
             <label for="address">Slot</label>
-            <input type="text" name="Slot" class="form-control" value="<?php echo $fetch['Slot'] ?>">
+            <input type="text" name="Slot_ID" class="form-control" value="<?php echo $fetch['Slot_ID'] ?>">
           </div>
           <button type="submit" name="Update" class="btn btn-primary">Update</button>
         </form>

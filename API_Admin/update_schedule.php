@@ -8,11 +8,11 @@
     $Amphitheater = $_POST["Amphitheater_ID"];
     $Subject = $_POST["Subject_ID"];
     $Classroom = $_POST["Classroom_ID"];
-    $Lecturers = $_POST["Lecturers"];
-    $Slot = $_POST["Slot"];
+    $Lecturers_ID = $_POST["Lecturers_ID"];
+    $Slot_ID = $_POST["Slot_ID"];
 
     // Câu truy vấn
-    $sql = " UPDATE schedule SET Date = '$Date', Room_ID = '$Room', Amphitheater_ID = '$Amphitheater', Subject_ID = '$Subject', Classroom_ID = '$Classroom', Lecturers = '$Lecturers', Slot = '$Slot'
+    $sql = " UPDATE schedule SET Date = '$Date', Room_ID = '$Room', Amphitheater_ID = '$Amphitheater', Subject_ID = '$Subject', Classroom_ID = '$Classroom', Lecturers_ID = '$Lecturers_ID', Slot_ID = '$Slot_ID'
              WHERE schedule_ID = '$Schedule_ID' ";
 
    // echo $sql;

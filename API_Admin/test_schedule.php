@@ -872,7 +872,7 @@
                           if ($result->num_rows > 0) {
                               while ($row = $result->fetch_assoc()) {
                                   echo '<tr>';
-                                    echo '<td>'. $row['test_Shedule_ID'] .'</td>';
+                                    echo '<td>'. $row['test_Schedule_ID'] .'</td>';
                                     echo '<td>'. $row['Date'] .'</td>';
                                     echo '<td>'. $row['Room_ID'] .'</td>';
                                     echo '<td>'. $row['Amphitheater_ID'] .'</td>';
@@ -881,8 +881,8 @@
                                     echo '<td>'. $row['Lecturers_ID'] .'</td>';
                                     echo '<td>'. $row['Slot_ID'] .'</td>';
                                     echo '<td> 
-                                            <button class="btn btn-warning" data-toggle="modal" type="button" data-target="#update_modal_'. $row['test_Shedule_ID'] .'"> Update </button> 
-                                            <button class="btn btn-danger" data-toggle="modal" type="button" data-target="#delete_modal_'. $row['test_Shedule_ID'] .'"> Delete </button>
+                                            <button class="btn btn-warning" data-toggle="modal" type="button" data-target="#update_modal_'. $row['test_Schedule_ID'] .'"> Update </button> 
+                                            <button class="btn btn-danger" data-toggle="modal" type="button" data-target="#delete_modal_'. $row['test_Schedule_ID'] .'"> Delete </button>
                                           </td>';
                                   echo '</tr>';
                               }

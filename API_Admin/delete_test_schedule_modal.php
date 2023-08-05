@@ -1,5 +1,5 @@
 <!-- update_modal.php -->
-<div class="modal fade" id="delete_modal_<?php echo $fetch['test_Shedule_ID'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="delete_modal_<?php echo $fetch['test_Schedule_ID'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -10,7 +10,7 @@
       </div>
       <div class="modal-body">
         <h5>Are you sure about this</h5>
-          <a href="delete_schedule.php?schedule_ID=<?php echo $fetch['test_Shedule_ID'] ?>"  class="btn btn-primary">Delete</a>
+          <a href="delete_schedule.php?test_Schedule_ID=<?php echo $fetch['test_Schedule_ID'] ?>"  class="btn btn-primary">Delete</a>
       </div>
     </div>
   </div>
